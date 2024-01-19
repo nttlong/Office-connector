@@ -28,7 +28,7 @@ import traceback
 
 import lib.contents
 import sys
-
+import lib.watch_file
 def set_auto_start_up():
     import winreg
     key = winreg.CreateKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\CurrentVersion\Run")
@@ -59,20 +59,17 @@ try:
 # In your main script, call this function to create the tray icon
     app_icon= get_icon()
     tray_icon_run=create_tray_icon(app_icon)
-    # start_server_thread=threading.Thread(target=start_server)
-    # start_server_thread.name="Socket"
+
     tray_icon_run_thread=threading.Thread(target=tray_icon_run)
     tray_icon_run_thread.name="Tray"
     tray_icon_run_thread.start()
-    # th1.start()
 
-
-    # th1.join()
+    watch_file_thread = threading.Thread(target=lib.watch_file.do_watch_file)
+    watch_file_thread.start()
     start_server()
     tray_icon_run_thread.join()
-    # threading.Thread(target=tray_icon_run).start()
-    #
-    # start_socket()
+    watch_file_thread.join()
+
 except Exception as e:
     txt = traceback.print_exc()
     print(__file__)

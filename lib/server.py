@@ -8,12 +8,14 @@ import lib.controllers
 import lib.config
 import lib.errors
 import lib.ui
+import lib.cacher_tracking
 async def handler(websocket, path: str):
 
     try:
         url = path.split("=")[1]
         upload_info= lib.config.get_app_config(url)
         ret = await lib.controllers.resolve_async(websocket, request_path=path, url_file=url,upload_info=upload_info)
+        del lib.cacher_tracking.downloading[ret]
         await websocket.send(ret)
     except lib.errors.Error as e:
         lib.ui.show_message_error(e.message)

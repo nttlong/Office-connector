@@ -4,6 +4,7 @@ import lib.contents, lib.config, lib.errors
 import lib.ui
 import logging
 import lib.extension_mapping
+from lib.watch_file import do_watch_file
 logging.basicConfig(filename="my_app.log", level=logging.ERROR)
 async def resolve_async(websocket, request_path, url_file,upload_info:lib.config.UploadInfo):
     try:
@@ -15,6 +16,7 @@ async def resolve_async(websocket, request_path, url_file,upload_info:lib.config
             word.Visible = True  # Make Word window visible
             doc = word.Documents.Open(doc_path)
             word.Activate()  # This brings Word to the foreground
+
             return doc_path
         elif upload_info.file_ext in lib.extension_mapping.powerpoint_extensions:
             powerpoint = win32com.client.Dispatch("PowerPoint.Application")
@@ -26,7 +28,7 @@ async def resolve_async(websocket, request_path, url_file,upload_info:lib.config
             excel = win32com.client.Dispatch("Excel.Application")
             workbook = excel.Workbooks.Open(doc_path)
             excel.Visible = True
-            excel.Activate()
+            workbook.Activate()
             return  doc_path
 
 
@@ -36,11 +38,12 @@ async def resolve_async(websocket, request_path, url_file,upload_info:lib.config
         elif upload_info.file_ext in lib.extension_mapping.paint_extensions:
             import subprocess
             subprocess.Popen(["MSPaint",doc_path])
+            return doc_path
         else:
             raise lib.errors.Error("This file does not support")
     except lib.errors.Error as e:
         lib.ui.show_message_error(e.message)
-    except Exception as e:
-        logging.error(e)
+    # except Exception as e:
+    #     logging.error(e)
 
 
