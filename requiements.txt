@@ -1,0 +1,6 @@
+websockets
+git+https://github.com/57ur14/pefile-extract-icon.git
+pywin32
+requests
+pystray
+pyinstaller
