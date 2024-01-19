@@ -1,2 +1,3 @@
 cache={}
 downloading={}
+host ={}

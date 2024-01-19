@@ -12,6 +12,10 @@ class UploadInfo:
     upload_id:str
     file_name_only:str
     file_ext:str
+    scheme:str
+    host:str
+    port:str
+    is_in_upload:bool
 
 
 def get_app_config(url:str)->UploadInfo:
@@ -35,6 +39,12 @@ def get_app_config(url:str)->UploadInfo:
             file_ext=file_ext[1:]
         ret_info.file_ext=file_ext.lower()
         ret_info.file_name_only=file_name_only
+        ret_info.scheme = ret.scheme
+        ret_info.host = ret.host
+        if ret.port:
+            ret_info.port = str(ret.port)
+        ret_info.is_in_upload=False
+        ret_info.port=None
         return ret_info
     except ValueError as e:
         raise lib.errors.Error("Invalid Codx server")
