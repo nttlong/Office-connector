@@ -1,0 +1,137 @@
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:root:(-2147221005, 'Invalid class string', None, None)
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:root:PowerPoint.Application.Documents
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:root:argument of type 'module' is not iterable
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:root:Excel.Application.Activate
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:root:[WinError 2] The system cannot find the file specified
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
+ERROR:websockets.server:connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 17, in handler
+    await websocket.send(ret)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\protocol.py", line 738, in send
+    raise TypeError("data must be str, bytes-like, or iterable")
+TypeError: data must be str, bytes-like, or iterable
