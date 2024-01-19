@@ -4,7 +4,8 @@ import sys
 import extract_icon
 import pystray
 from PIL import Image
-
+import win32api
+import win32con
 
 def get_icon():
     icon_extractor = extract_icon.ExtractIcon(sys.executable)
@@ -37,3 +38,9 @@ def create_tray_icon(icon):
     )
     icon = pystray.Icon("Codx Office interact", icon, menu=menu)
     return icon.run
+
+
+def show_message_error(message):
+    title = "Codx message"
+
+    win32api.MessageBox(0, message, title, win32con.MB_OK)
