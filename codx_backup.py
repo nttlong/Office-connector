@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['E:\\long\\office-connector\\Office-connector\\codx.py'],
+    ['E:\\long\\python\\codx.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -34,5 +34,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['E:\\long\\office-connector\\Office-connector\\icon\\WP.ico'],
+    icon=['E:\\long\\python\\icon\\WP.ico'],
 )

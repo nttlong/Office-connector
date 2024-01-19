@@ -33,7 +33,7 @@ def get_app_config(url:str)->UploadInfo:
             raise lib.errors.Error("Invalid file")
         else:
             file_ext=file_ext[1:]
-        ret_info.file_ext=file_ext
+        ret_info.file_ext=file_ext.lower()
         ret_info.file_name_only=file_name_only
         return ret_info
     except ValueError as e:

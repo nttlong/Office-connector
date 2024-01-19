@@ -1,6 +1,6 @@
 # This is a sample Python script.
 # how to build
-# pyinstaller --onefile E:\long\python\codx.py --icon=E:\long\python\icon\WP.ico --noconsole
+# pyinstaller --onefile E:\long\office-connector\Office-connector\codx.py --icon=E:\long\office-connector\Office-connector\icon\WP.ico --hidden-import=E:\long\office-connector\Office-connector\lib --noconsole
 import pathlib
 import threading
 import time
