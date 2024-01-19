@@ -1,4 +1,5 @@
 import io
+import os
 import sys
 
 import extract_icon
@@ -6,6 +7,10 @@ import pystray
 from PIL import Image
 import win32api
 import win32con
+import logging
+
+logging.basicConfig(filename="codx.log", level=logging.ERROR)
+
 
 def get_icon():
     icon_extractor = extract_icon.ExtractIcon(sys.executable)
@@ -24,10 +29,10 @@ def create_tray_icon(icon):
         try:
             # start_server.ws_server.server.close()
             icon.stop()  # Stop the tray icon
-            sys.exit()  # Exit the application
+            os._exit(0)
         except Exception as e:
-            print(e)
-            pass
+            logging.error(e)
+            os._exit(0)
         finally:
             sys.exit()
 
@@ -41,6 +46,8 @@ def create_tray_icon(icon):
 
 
 def show_message_error(message):
-    title = "Codx message"
-
-    win32api.MessageBox(0, message, title, win32con.MB_OK)
+    try:
+        title = "Codx message"
+        win32api.MessageBox(0, message, title, win32con.MB_OK)
+    except Exception as e:
+        logging.error(e)

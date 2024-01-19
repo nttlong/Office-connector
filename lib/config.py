@@ -38,3 +38,5 @@ def get_app_config(url:str)->UploadInfo:
         return ret_info
     except ValueError as e:
         raise lib.errors.Error("Invalid Codx server")
+    except Exception as e:
+        raise lib.errors.Error(type(e).__name__)

@@ -9,6 +9,7 @@ import lib.config
 import lib.errors
 import lib.ui
 async def handler(websocket, path: str):
+    lib.ui.show_message_error("OK")
     try:
         url = path.split("=")[1]
         upload_info= lib.config.get_app_config(url)
