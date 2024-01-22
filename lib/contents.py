@@ -1,5 +1,6 @@
 import datetime
 import os
+import pathlib
 import uuid
 
 import requests
@@ -14,14 +15,15 @@ def download(url):
     os.makedirs(download_dir, exist_ok=True)
     file_name = info.upload_id
     download_path = os.path.join(download_dir, file_name)
-    lib.cacher_tracking.downloading[download_path]=download_path
+    file_id=pathlib.Path(download_path).stem
+
     try:
         if os.path.isfile(download_path):
             os.remove(download_path)
     except:
         return download_path
+    lib.cacher_tracking.downloading[file_id] = download_path
     response = requests.get(url, verify=False)
     with open(download_path, "wb") as f:
         f.write(response.content)
-
     return download_path

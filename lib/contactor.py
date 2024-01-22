@@ -13,6 +13,7 @@ def __do_upload__(app_name, upload_id, src_path, info:lib.config.UploadInfo):
     info.is_in_upload = True
     files = {"content": open(src_path, "rb")}  # Replace with your file path
     response = requests.post(url_update_content, files=files)
+    response.raise_for_status()
     info.is_in_upload = False
 
     lib.loggers.logger.info(f"{src_path} was sync to {url_update_content}")
@@ -27,11 +28,11 @@ def do_upload(app_name, upload_id, src_path, info:lib.config.UploadInfo):
         except requests.exceptions.ConnectionError as e:
             lib.loggers.logger.error(e)
             count -=1
-            time.sleep(2)
+            time.sleep(5)
         except PermissionError as e:
             lib.loggers.logger.error(e)
             count -= 1
-            time.sleep(2)
+            time.sleep(5)
         except Exception as e:
             lib.loggers.logger.error(e)
             info.is_in_upload=False

@@ -3,7 +3,7 @@ import lib.cacher_tracking
 import lib.config
 import lib.contactor
 def on_edit(src_path: str, app_name: str, upload_id: str):
-    info = lib.cacher_tracking.host.get(src_path)
+    info = lib.cacher_tracking.host.get(upload_id)
     if not isinstance(info,lib.config.UploadInfo):
         return
     if not info.is_in_upload:
