@@ -1,9 +1,17 @@
 import os
 import pathlib
 import uuid
-
+import traceback
+import lib.loggers
 import urllib3
 app_data_dir= os.path.join(os.environ.get("USERPROFILE"),"AppData","Roaming","codx")
+try:
+    app_data_dir= os.path.join(os.path.expanduser("~\\AppData\\Local"),"Codx-Desktop-Connector")
+    os.makedirs(app_data_dir,exist_ok=True)
+    lib.loggers.logger.info(f"{app_data_dir} was create")
+
+except Exception as e:
+    lib.loggers.logger.error(e)
 os.makedirs(app_data_dir,exist_ok=True)
 import lib.errors
 
@@ -43,8 +51,10 @@ def get_app_config(url:str)->UploadInfo:
         ret_info.host = ret.host
         if ret.port:
             ret_info.port = str(ret.port)
+        else:
+            ret_info.port = None
         ret_info.is_in_upload=False
-        ret_info.port=None
+
         return ret_info
     except ValueError as e:
         raise lib.errors.Error("Invalid Codx server")
