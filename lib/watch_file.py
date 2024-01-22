@@ -9,6 +9,7 @@ from watchdog.events import FileSystemEventHandler
 import lib.cacher_tracking
 tracking={}
 import lib.loggers
+import lib.contents
 import os
 class MyHandler(FileSystemEventHandler):
     def on_any_event(self, event):
@@ -25,8 +26,17 @@ class MyHandler(FileSystemEventHandler):
                 oid=uuid.UUID(file_name)
             except:
                 return
-            if not lib.cacher_tracking.downloading.get(str(oid)):
-                on_edit(src_path=event.src_path, upload_id=file_name,app_name=app_name)
+            info = lib.contents.get_info_by_id(str(oid))
+            if info is None:
+                return
+            if info.is_change():
+                info.is_sync = True
+                on_edit(src_path=event.src_path, upload_id=file_name, app_name=app_name)
+                info.is_sync = False
+                info.commit()
+
+
+
         except  Exception as e:
             lib.loggers.logger.error(e)
 

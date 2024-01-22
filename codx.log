@@ -1,0 +1,911 @@
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66 was sync to http://172.16.13.72:8012/lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019948728050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019948728BF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199487294C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199486E2870>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199482F7E60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019948728EF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019948728530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001994872A870>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199486E3470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0912.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0912.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66 was sync to http://172.16.13.72:8012/lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697D83050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697DD0260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697DD0D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697DD1910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697D83590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697DD1760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697DD0710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697DD22D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697DD2BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C697D83A40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0263.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0263.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0263.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0263.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0396.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0396.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0396.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3427.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3427.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3427.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3427.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL3556.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+'NetCommand' object has no attribute 'py_db'
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL3556.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL3556.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3136.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3136.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3136.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3136.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3136.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD3136.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66 was sync to http://172.16.13.72:8012/lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC1FEA2180>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC1FF006B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC1FF01220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC1FEA3110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC1FF01370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC1FF01AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+HTTPConnectionPool(host='172.16.13.72', port=8012): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC1FF023F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66 was sync to http://172.16.13.72:8012/lvfile/api/lv-docs/files/update_source/f0f94530-b7f8-43c8-9bed-515725e24b66
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~$f94530-b7f8-43c8-9bed-515725e24b66.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\~WRD0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lv-docs\f0f94530-b7f8-43c8-9bed-515725e24b66.docx
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\developer\fe0ae64b-174d-47b7-8195-bf929b928f7b
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\developer\fe0ae64b-174d-47b7-8195-bf929b928f7b
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\6d4e9e09-7dc5-4132-b48c-d82c37783169
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\6d4e9e09-7dc5-4132-b48c-d82c37783169
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\6d4e9e09-7dc5-4132-b48c-d82c37783169
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\6d4e9e09-7dc5-4132-b48c-d82c37783169
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\297b5221-8440-4e34-b8c1-a6685d03c18a
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\297b5221-8440-4e34-b8c1-a6685d03c18a
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\~$297b5221-8440-4e34-b8c1-a6685d03c18a
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\~$297b5221-8440-4e34-b8c1-a6685d03c18a
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\~$297b5221-8440-4e34-b8c1-a6685d03c18a
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\297b5221-8440-4e34-b8c1-a6685d03c18a
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\34a5fb92-6921-4dbc-92c2-303b9ab083c9
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\34a5fb92-6921-4dbc-92c2-303b9ab083c9
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\34a5fb92-6921-4dbc-92c2-303b9ab083c9
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\~$297b5221-8440-4e34-b8c1-a6685d03c18a
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\04a9bcf0-e40f-46ae-9ca5-a92f8e2065aa
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\5b1a1b65-a4fd-4d67-b9c8-7a660b9f9835
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\logs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\4bc0f05d-db70-48a0-ba91-b2a6cfaccf4b
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\4bc0f05d-db70-48a0-ba91-b2a6cfaccf4b
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\4bc0f05d-db70-48a0-ba91-b2a6cfaccf4b
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\4bc0f05d-db70-48a0-ba91-b2a6cfaccf4b
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\d74b9fca-8be4-4392-aff6-62d72fbcfbbd
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+'NoneType' object has no attribute 'is_change'
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+'DownLoadInfo' object has no attribute 'items'
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+'DownLoadInfo' object has no attribute 'items'
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+'NoneType' object has no attribute 'is_change'
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+'DownLoadInfo' object has no attribute 'items'
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD3890.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD3890.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD3890.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD1863.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD1863.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD1863.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+'NoneType' object has no attribute 'is_change'
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD1863.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL1863.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD2346.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD2346.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD2346.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD2301.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD2301.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD2301.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD2301.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL2304.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL2304.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL2304.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRL0004.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~WRD0005.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\~$ebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021E95B78C80>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021E95B79370>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021E95B79820>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021E95B79F70>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021E95B7A8D0>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\0bebbca1-a33c-4ca4-a535-e2d96caebdc1.txt
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6930D10>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6931580>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6931CA0>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6930A40>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6931F70>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6932840>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6933200>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6931D30>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='none', port=443): Max retries exceeded with url: /lvfile/api/lv-docs/files/update_source/0bebbca1-a33c-4ca4-a535-e2d96caebdc1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218E6931010>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A1618B60>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A1619370>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A1619BB0>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A1619490>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A1619C70>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A161AD50>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A1619CD0>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A9A1619160>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000022B4AFF8EF0>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+This is an info message
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data was create
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0000.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx was sync to http://172.16.7.99/lvfile/api/lacvietdemo/files/update_source/afcbaf07-4eee-42e9-8b38-59615427348f
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRD0001.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~$cbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\~WRL0002.tmp
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo
+C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lacvietdemo\afcbaf07-4eee-42e9-8b38-59615427348f.docx

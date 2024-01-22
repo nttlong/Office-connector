@@ -6,12 +6,13 @@ import lib.loggers
 import urllib3
 app_data_dir= os.path.join(os.environ.get("USERPROFILE"),"AppData","Roaming","codx")
 try:
-    app_data_dir= os.path.join(os.path.expanduser("~\\AppData\\Local"),"Codx-Desktop-Connector")
+    app_data_dir= os.path.join(os.path.expanduser("~\\AppData\\Local"),"Codx-Desktop-Connector","data")
     os.makedirs(app_data_dir,exist_ok=True)
     lib.loggers.logger.info(f"{app_data_dir} was create")
 
 except Exception as e:
     lib.loggers.logger.error(e)
+app_dir = os.path.join(os.path.expanduser("~\\AppData\\Local"),"Codx-Desktop-Connector")
 os.makedirs(app_data_dir,exist_ok=True)
 import lib.errors
 
