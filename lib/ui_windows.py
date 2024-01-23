@@ -4,32 +4,65 @@ import lib.ui_abstractions
 import win32com.client
 
 
+
+def com_error_wrapper(client_app_name: str):
+    import pywintypes
+    import lib.loggers
+    def wrapper(*args, **kwargs):
+        caller = args[0]
+
+        def re_call(*args, **kwargs):
+            try:
+                return caller(*args, **kwargs)
+            except pywintypes.com_error as err:
+                import win32api
+                import win32con
+                import lib.contents
+
+                title = lib.contents.get_app_name()
+                win32api.MessageBox(0, f"{client_app_name} is not installed or something wrong. Please install it to "
+                                       f"proceed.",
+                                    lib.contents.get_app_name(), win32con.MB_OK)
+                lib.loggers.logger.error(err)
+            except Exception as e:
+
+                lib.loggers.logger.error(e)
+
+
+        return re_call
+
+    return wrapper
+
+
 class Loader(lib.ui_abstractions.BaseLoader):
 
+    @com_error_wrapper("Microsoft Word")
     def load_word(self, file_path: str):
         word = win32com.client.Dispatch("Word.Application")
         word.Visible = True  # Make Word window visible
         doc = word.Documents.Open(file_path)
         word.Activate()  # This brings Word to the foreground
 
-
-
+    @com_error_wrapper("PowerPoint")
     def load_power_point(self, file_path):
         powerpoint = win32com.client.Dispatch("PowerPoint.Application")
         powerpoint.Visible = True  # Make Word window visible
         doc = presentation = powerpoint.Presentations.Open(file_path)
         powerpoint.Activate()  # This brings Word to the foreground
 
+    @com_error_wrapper("Excel")
     def load_excel(self, file_path):
         excel = win32com.client.Dispatch("Excel.Application")
         workbook = excel.Workbooks.Open(file_path)
         excel.Visible = True
         workbook.Activate()
 
+    @com_error_wrapper("Notepad")
     def load_note_pad(self, file_path):
         import subprocess
         subprocess.Popen(["notepad", file_path])
 
+    @com_error_wrapper("MS Paint")
     def load_paint_app(self, file_path):
         import subprocess
         subprocess.Popen(["MSPaint", file_path])
@@ -40,6 +73,7 @@ class Loader(lib.ui_abstractions.BaseLoader):
         import lib.contents
         title = lib.contents.get_app_name()
         win32api.MessageBox(0, message, title, win32con.MB_OK)
+
     def set_auto_start_up(self):
         import winreg
         import lib.contents
@@ -47,7 +81,7 @@ class Loader(lib.ui_abstractions.BaseLoader):
         key = winreg.CreateKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\CurrentVersion\Run")
         winreg.SetValueEx(key, lib.contents.get_app_name(), 0, winreg.REG_SZ, sys.executable)
 
-    def create_tray_icon(self,icon):
+    def create_tray_icon(self, icon):
         import lib.contents
         import os
         import sys

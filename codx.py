@@ -54,21 +54,21 @@ from lib.server import server_async
 from lib.server import start_server
 import lib.ui_controller
 import lib.loggers
+import lib.thread_controller
+def start_app():
+    app_icon = lib.ui_controller.loader.get_icon()
+    tray_icon_run = lib.ui_controller.loader.create_tray_icon(app_icon)
+    tray_icon_run_thread= lib.thread_controller.loader.start(name="Tray", target=tray_icon_run, args=())
+    watch_file_thread = lib.thread_controller.loader.start(name="wacth file", target=lib.watch_file.do_watch_file, args=())
+    start_server()
+    lib.thread_controller.loader.join([
+        tray_icon_run_thread,watch_file_thread]
+    )
 
+# start_app()
 try:
 # In your main script, call this function to create the tray icon
-    app_icon= lib.ui_controller.loader.get_icon()
-    tray_icon_run=lib.ui_controller.loader.create_tray_icon(app_icon)
-
-    tray_icon_run_thread=threading.Thread(target=tray_icon_run)
-    tray_icon_run_thread.name="Tray"
-    tray_icon_run_thread.start()
-
-    watch_file_thread = threading.Thread(target=lib.watch_file.do_watch_file)
-    watch_file_thread.start()
-    start_server()
-    tray_icon_run_thread.join()
-    watch_file_thread.join()
+    start_app()
 
 except Exception as e:
     lib.loggers.logger.error(e)
