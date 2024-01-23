@@ -29,11 +29,12 @@ class MyHandler(FileSystemEventHandler):
             info = lib.contents.get_info_by_id(str(oid))
             if info is None:
                 return
-            if info.is_change():
-                info.is_sync = True
+            has_change =info.is_change()
+            if has_change:
+                info.status=lib.contents.DownLoadInfoEnum.Unknown
                 on_edit(src_path=event.src_path, upload_id=file_name, app_name=app_name)
-                info.is_sync = False
-                info.commit()
+                info.commit_change()
+                info.save_commit()
 
 
 

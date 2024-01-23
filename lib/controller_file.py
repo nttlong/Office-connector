@@ -13,5 +13,6 @@ def on_edit(src_path: str, app_name: str, upload_id: str):
         src_path=src_path,
         info=info
     )
+    return
 
 
