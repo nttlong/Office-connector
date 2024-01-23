@@ -14,7 +14,8 @@ import lib.loggers
 import json
 
 __cache__ = {}
-
+def get_app_name():
+    return "Codx DMS desktop connector"
 
 def __json_converter__(obj):
     if isinstance(obj, datetime.datetime):
@@ -177,7 +178,8 @@ class DownLoadInfo:
                     self.commit_change()
                     self.save_commit()
                 except Exception as e:
-                    ui.show_message_error("Error download")
+                    import lib.ui_controller
+                    lib.ui_controller.loader.show_message_error(f"Can not get content from {self.url}")
                     lib.loggers.logger.debug(e)
             else:
                 response.raise_for_status()
@@ -221,3 +223,5 @@ def get_info_by_id(id: str,url=None) -> DownLoadInfo:
     elif url:
         ret= DownLoadInfo(url)
         return ret
+
+

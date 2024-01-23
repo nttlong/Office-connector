@@ -29,12 +29,13 @@ import traceback
 import lib.contents
 import sys
 import lib.watch_file
-def set_auto_start_up():
-    import winreg
-    key = winreg.CreateKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\CurrentVersion\Run")
-    winreg.SetValueEx(key, "Codx-Office-Client-Comunication", 0, winreg.REG_SZ, sys.executable)
-if pathlib.Path(sys.executable).name=="codx":
-    set_auto_start_up()
+import lib.ui
+
+
+if pathlib.Path(sys.executable).name.lower()=="codx":
+    import lib.ui_controller
+    lib.ui_controller.loader.set_auto_start_up()
+
 
 stop_server = False
 

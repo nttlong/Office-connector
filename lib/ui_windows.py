@@ -20,9 +20,25 @@ class Loader(lib.ui_abstractions.BaseLoader):
         workbook = excel.Workbooks.Open(file_path)
         excel.Visible = True
         workbook.Activate()
+
     def load_note_pad(self, file_path):
         import subprocess
         subprocess.Popen(["notepad", file_path])
+
     def load_paint_app(self, file_path):
         import subprocess
         subprocess.Popen(["MSPaint", file_path])
+
+    def show_message_error(self, message):
+        import win32api
+        import win32con
+        import lib.contents
+        title = lib.contents.get_app_name()
+        win32api.MessageBox(0, message, title, win32con.MB_OK)
+    def set_auto_start_up(self):
+        import winreg
+        import lib.contents
+        import sys
+        key = winreg.CreateKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\CurrentVersion\Run")
+        winreg.SetValueEx(key, lib.contents.get_app_name(), 0, winreg.REG_SZ, sys.executable)
+

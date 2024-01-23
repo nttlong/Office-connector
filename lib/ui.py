@@ -5,11 +5,8 @@ import sys
 import extract_icon
 import pystray
 from PIL import Image
-import win32api
-import win32con
-import logging
 
-logging.basicConfig(filename="codx.log", level=logging.ERROR)
+import lib.loggers
 
 
 def get_icon():
@@ -21,6 +18,7 @@ def get_icon():
 
 
 def create_tray_icon(icon):
+    import lib.contents
     def show_window():
         # Code to display your application's main window
         pass
@@ -31,7 +29,7 @@ def create_tray_icon(icon):
             icon.stop()  # Stop the tray icon
             os._exit(0)
         except Exception as e:
-            logging.error(e)
+            lib.loggers.logger.error(e)
             os._exit(0)
         finally:
             sys.exit()
@@ -41,13 +39,11 @@ def create_tray_icon(icon):
         pystray.MenuItem("Show Window", show_window),
         pystray.MenuItem("Exit", exit_app),
     )
-    icon = pystray.Icon("Codx Office interact", icon, menu=menu)
+    icon = pystray.Icon(lib.contents.get_app_name(), icon, menu=menu)
     return icon.run
 
 
-def show_message_error(message):
-    try:
-        title = "Codx message"
-        win32api.MessageBox(0, message, title, win32con.MB_OK)
-    except Exception as e:
-        logging.error(e)
+
+
+
+

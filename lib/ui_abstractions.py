@@ -17,3 +17,11 @@ class BaseLoader(ABC):
     @abstractmethod
     def load_paint_app(self, file_path):
         pass
+
+    @abstractmethod
+    def show_message_error(self, param):
+        pass
+
+    @abstractmethod
+    def set_auto_start_up(self):
+        pass

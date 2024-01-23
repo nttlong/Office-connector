@@ -1,17 +1,23 @@
 import logging
+import logging.handlers
+log_file_name = "codx.log"  # Replace with your desired filename
+max_bytes = 10 * 1024  # 10K bytes
+backup_count = 5
 
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# Create a formatter that includes timestamp and log level
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.INFO)  # Log INFO and above to console
+# Create a rotating file handler with the specified settings
+handler = logging.handlers.RotatingFileHandler(
+    filename=log_file_name,
+    maxBytes=max_bytes,
+    backupCount=backup_count
+)
+handler.setFormatter(formatter)
 
-file_handler = logging.FileHandler('codx.log')
-file_handler.setLevel(logging.DEBUG)  # Log DEBUG and above to file
+# Add the handler to the root logger
+logger = logging.getLogger()
+logger.addHandler(handler)
 
-logger = logging.getLogger(__name__)
-logger.addHandler(console_handler)
-logger.addHandler(file_handler)
-
-logger.debug('This is a debug message')  # Only in file
-logger.info('This is an info message')  # In both console and file
+# Set the logging level (e.g., INFO, DEBUG, WARNING)
+logger.setLevel(logging.INFO)  # Adjust as needed
