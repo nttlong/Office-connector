@@ -12,12 +12,15 @@ async def resolve_async(websocket, request_path, url_file,
                         upload_info: lib.config.UploadInfo) -> lib.contents.DownLoadInfo:
     try:
         doc_info = lib.contents.get_info_by_url(url_file)
-        doc_info.do_download()
+
+
         if doc_info is None:
             return None
+
         if doc_info is None:
             return
-
+        assert isinstance(doc_info,lib.contents.DownLoadInfo)
+        doc_info.do_download()
         if doc_info.file_ext in lib.extension_mapping.word_extensions:
             lib.ui_controller.loader.load_word(doc_info.file_path)
             return doc_info

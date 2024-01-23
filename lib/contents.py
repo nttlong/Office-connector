@@ -8,7 +8,7 @@ import uuid
 
 import requests
 import lib.data_hashing
-from lib import config
+from lib import config, ui
 import lib.cacher_tracking
 import lib.loggers
 import json
@@ -122,20 +122,7 @@ class DownLoadInfo:
         else:
             return set(self.hash_contents) != set(self.get_hash_content_online())
 
-    def get_hash_content_online(self, step: int = 5):
-
-        if os.path.getsize(self.file_path) == 0:
-            return []
-        ret_list = []
-        hash_size_skip = int(math.floor(os.path.getsize(self.file_path) / step))
-        hash_size = 1024
-        with open(self.file_path, "rb") as f:
-            bytes_read = f.read()
-            ret = lib.data_hashing.hash_chunk(bytes_read)
-            ret_list += [ret]
-        return ret_list
-
-    def get_hash_content_online_delete(self, step: int = 5):
+    def get_hash_content_online(self, step: int = 3):
 
         if os.path.getsize(self.file_path) == 0:
             return []
@@ -154,13 +141,7 @@ class DownLoadInfo:
                 bytes_read = f.read(hash_size)
         return ret_list
 
-    # def get_hash_first_online(self):
 
-    #
-    # def get_hash_last_online(self):
-    #     last_chunk = __read_last_bytes__(self.file_path)
-    #     ret = lib.data_hashing.hash_chunk(last_chunk)
-    #     return ret
 
     def get_size_online(self):
         return os.path.getsize(self.file_path)
@@ -187,13 +168,17 @@ class DownLoadInfo:
 
             # Check for successful response
             if response.status_code == 200:
-                with open(self.file_path, "wb") as f:
+                try:
+                    with open(self.file_path, "wb") as f:
 
-                    for chunk in response.iter_content(chunk_size=1024):
-                        f.write(chunk)
+                        for chunk in response.iter_content(chunk_size=1024):
+                            f.write(chunk)
 
-                self.commit_change()
-                self.save_commit()
+                    self.commit_change()
+                    self.save_commit()
+                except Exception as e:
+                    ui.show_message_error("Error download")
+                    lib.loggers.logger.debug(e)
             else:
                 response.raise_for_status()
 
@@ -206,10 +191,10 @@ __cache__ = {}
 def get_info_by_url(url: str) -> DownLoadInfo:
     global __cache__
     info = config.get_app_config(url)
-    return info
+    return get_info_by_id(info.upload_id,url)
 
 
-def get_info_by_id(id: str) -> DownLoadInfo:
+def get_info_by_id(id: str,url=None) -> DownLoadInfo:
     global __cache__
     if isinstance(__cache__.get(id), DownLoadInfo):
         return __cache__.get(id)
@@ -233,3 +218,6 @@ def get_info_by_id(id: str) -> DownLoadInfo:
 
         except:
             os.remove(os.path.join(lib.config.get_app_track_dir(), id))
+    elif url:
+        ret= DownLoadInfo(url)
+        return ret

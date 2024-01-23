@@ -16,6 +16,9 @@ async def handler(websocket, path: str):
         url = path.split("=")[1]
         upload_info= lib.config.get_app_config(url)
         ret = await lib.controllers.resolve_async(websocket, request_path=path, url_file=url,upload_info=upload_info)
+        if ret is None:
+            await websocket.send("error")
+            return
         id= ret.upload_id
         lib.cacher_tracking.host[id]=upload_info
 
