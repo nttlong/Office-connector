@@ -36,7 +36,7 @@ async def resolve_async(websocket, request_path, url_file,
 
         elif doc_info.file_ext in lib.extension_mapping.notepad_extensions:
             lib.ui_controller.loader.load_note_pad(doc_info.file_path)
-            doc_info.start_watch()
+
         elif doc_info.file_ext in lib.extension_mapping.paint_extensions:
             lib.ui_controller.loader.load_paint_app(doc_info.file_path)
 

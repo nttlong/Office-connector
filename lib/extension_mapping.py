@@ -7,7 +7,6 @@ word_extensions = [
     "dotm",  # Macro-enabled Word template
     "rtf",  # Rich Text Format
     "odt",  # OpenDocument Text (supported in newer Word versions)
-    "txt",  # Plain text (limited formatting)
     "htm", "html",  # Web pages (may open with formatting differences)
     "wps",  # WordPerfect document (supported in newer Word versions)
     "xml",  # Word XML format (for special cases)
@@ -67,7 +66,6 @@ excel_extensions = [
     "ods",  # OpenDocument Spreadsheet
     "csv",  # Comma-Separated Values
     "tsv",  # Tab-Separated Values
-    "txt",  # Text (often for delimited data)
     "prn",  # Printer output file
     "dif",  # Data Interchange Format
     "sylk",  # Symbolic Link
