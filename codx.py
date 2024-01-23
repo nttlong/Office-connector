@@ -51,15 +51,14 @@ start_server= None
 
 
 from lib.server import server_async
-from lib.ui import get_icon, create_tray_icon
 from lib.server import start_server
-
-
+import lib.ui_controller
+import lib.loggers
 
 try:
 # In your main script, call this function to create the tray icon
-    app_icon= get_icon()
-    tray_icon_run=create_tray_icon(app_icon)
+    app_icon= lib.ui_controller.loader.get_icon()
+    tray_icon_run=lib.ui_controller.loader.create_tray_icon(app_icon)
 
     tray_icon_run_thread=threading.Thread(target=tray_icon_run)
     tray_icon_run_thread.name="Tray"
@@ -72,9 +71,7 @@ try:
     watch_file_thread.join()
 
 except Exception as e:
-    txt = traceback.print_exc()
-    print(__file__)
-    print(txt)
-    # time.sleep(10000)
+    lib.loggers.logger.error(e)
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

@@ -1,13 +1,18 @@
+import pathlib
+
 import lib.ui_abstractions
 import win32com.client
 
 
 class Loader(lib.ui_abstractions.BaseLoader):
+
     def load_word(self, file_path: str):
         word = win32com.client.Dispatch("Word.Application")
         word.Visible = True  # Make Word window visible
         doc = word.Documents.Open(file_path)
         word.Activate()  # This brings Word to the foreground
+
+
 
     def load_power_point(self, file_path):
         powerpoint = win32com.client.Dispatch("PowerPoint.Application")
@@ -42,3 +47,42 @@ class Loader(lib.ui_abstractions.BaseLoader):
         key = winreg.CreateKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\CurrentVersion\Run")
         winreg.SetValueEx(key, lib.contents.get_app_name(), 0, winreg.REG_SZ, sys.executable)
 
+    def create_tray_icon(self,icon):
+        import lib.contents
+        import os
+        import sys
+        import lib.contents
+        import pystray
+        def show_window():
+            # Code to display your application's main window
+            pass
+
+        def exit_app():
+            try:
+                # start_server.ws_server.server.close()
+                icon.stop()  # Stop the tray icon
+                os._exit(0)
+            except Exception as e:
+                lib.loggers.logger.error(e)
+                os._exit(0)
+            finally:
+                sys.exit()
+
+        # Load your icon
+        menu = pystray.Menu(
+            pystray.MenuItem("Show Window", show_window),
+            pystray.MenuItem("Exit", exit_app),
+        )
+        icon = pystray.Icon(lib.contents.get_app_name(), icon, menu=menu)
+        return icon.run
+
+    def get_icon(self):
+        import extract_icon
+        import sys
+        import io
+        from PIL import Image
+        icon_extractor = extract_icon.ExtractIcon(sys.executable)
+        raw = icon_extractor.get_raw_windows_preferred_icon()
+        icon_io = io.BytesIO(raw)
+        app_icon = Image.open(icon_io)
+        return app_icon

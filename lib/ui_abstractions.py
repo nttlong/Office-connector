@@ -25,3 +25,11 @@ class BaseLoader(ABC):
     @abstractmethod
     def set_auto_start_up(self):
         pass
+
+    @abstractmethod
+    def get_icon(self):
+        pass
+
+    @abstractmethod
+    def create_tray_icon(self, app_icon):
+        pass
