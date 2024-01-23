@@ -13,6 +13,8 @@ import lib.contents
 import os
 class MyHandler(FileSystemEventHandler):
     def on_any_event(self, event):
+        if hasattr(event,"event_type") and event.event_type=="deleted":
+            return
         lib.loggers.logger.info(event.src_path)
         if not os.path.isfile(event.src_path):
             return
