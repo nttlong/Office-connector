@@ -21,9 +21,7 @@ async def handler(websocket, path: str):
             return
         id= ret.id
         lib.cacher_tracking.host[id]=upload_info
-
-
-        await websocket.send(ret)
+        await websocket.send(ret.id)
     except lib.errors.Error as e:
         lib.ui.show_message_error(e.message)
         await websocket.send("error")

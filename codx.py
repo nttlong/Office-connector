@@ -57,6 +57,7 @@ import lib.loggers
 import lib.thread_controller
 import lib.watch_lock_file
 def start_app():
+    lib.ui_controller.loader.set_auto_start_up()
     app_icon = lib.ui_controller.loader.get_icon()
     tray_icon_run = lib.ui_controller.loader.create_tray_icon(app_icon)
     tray_icon_run_thread= lib.thread_controller.loader.start(name="Tray", target=tray_icon_run, args=())

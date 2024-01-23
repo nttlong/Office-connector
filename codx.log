@@ -87,3 +87,5 @@ TypeError: data must be str, bytes-like, or iterable
 2024-01-23 17:53:05,035 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs
 2024-01-23 17:53:05,037 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\lv-docs\d24e45bd-9485-4a26-8178-3c5079f7211b.png
 2024-01-23 17:53:29,767 - INFO - server closing
+2024-01-23 17:53:29,769 - INFO - server closed
+2024-01-23 17:56:26,988 - ERROR - [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8765): only one usage of each socket address (protocol/network address/port) is normally permitted
