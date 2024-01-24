@@ -1,0 +1,118 @@
+2024-01-23 15:48:00,468 - INFO - server closed
+2024-01-23 15:57:42,873 - INFO - server listening on [::1]:8765
+2024-01-23 15:57:42,874 - INFO - server listening on 127.0.0.1:8765
+2024-01-23 15:57:53,555 - INFO - connection open
+2024-01-23 15:57:53,576 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 15:57:53,582 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 15:57:53,588 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 15:57:53,733 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 15:57:53,745 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 15:58:03,688 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 15:58:03,690 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\~$dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 15:58:03,691 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\~$dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 15:58:03,861 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 15:58:07,342 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\~$dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:00:58,375 - INFO - server listening on 127.0.0.1:8765
+2024-01-23 16:00:58,375 - INFO - server listening on [::1]:8765
+2024-01-23 16:01:10,239 - INFO - connection open
+2024-01-23 16:01:10,255 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 16:01:10,261 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:01:10,390 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:01:10,402 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:01:12,296 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\win32com\client\dynamic.py", line 84, in _GetGoodDispatch
+    IDispatch = pythoncom.connect(IDispatch)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147221005, 'Invalid class string', None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 18, in handler
+    ret = await lib.controllers.resolve_async(websocket, request_path=path, url_file=url,upload_info=upload_info)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\controllers.py", line 25, in resolve_async
+    lib.ui_controller.loader.load_word(doc_info.file_path)
+  File "E:\long\office-connector\Office-connector\lib\ui_windows.py", line 12, in re_call
+    return caller(*args,**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\ui_windows.py", line 31, in load_word
+    word = win32com.client.Dispatch("Word.Application1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\win32com\client\__init__.py", line 118, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\win32com\client\dynamic.py", line 104, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\win32com\client\dynamic.py", line 86, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pywintypes.com_error: (-2147221005, 'Invalid class string', None, None)
+2024-01-23 16:01:12,313 - INFO - connection closed
+2024-01-23 16:01:23,512 - INFO - connection open
+2024-01-23 16:01:23,515 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 16:01:23,518 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\aaa83517-da80-443e-b731-566ce557159b.docx
+2024-01-23 16:01:23,626 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\aaa83517-da80-443e-b731-566ce557159b.docx
+2024-01-23 16:01:23,776 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\aaa83517-da80-443e-b731-566ce557159b.docx was sync to http://172.16.7.99/lvfile/api/default/files/update_source/aaa83517-da80-443e-b731-566ce557159b
+2024-01-23 16:01:23,779 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\aaa83517-da80-443e-b731-566ce557159b.docx
+2024-01-23 16:02:08,722 - INFO - server listening on [::1]:8765
+2024-01-23 16:02:08,723 - INFO - server listening on 127.0.0.1:8765
+2024-01-23 16:02:12,993 - INFO - connection open
+2024-01-23 16:02:13,012 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 16:02:13,022 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:02:13,155 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:02:13,168 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:02:23,419 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 22, in handler
+    id= ret.upload_id
+        ^^^^^^^^^^^^^
+AttributeError: 'DownLoadInfo' object has no attribute 'upload_id'
+2024-01-23 16:02:23,455 - INFO - connection closed
+2024-01-23 16:02:24,325 - INFO - server closing
+2024-01-23 16:02:24,326 - INFO - server closed
+2024-01-23 16:03:55,453 - INFO - server listening on 127.0.0.1:8765
+2024-01-23 16:03:55,454 - INFO - server listening on [::1]:8765
+2024-01-23 16:04:01,649 - INFO - connection open
+2024-01-23 16:04:01,657 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 16:04:01,659 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\aaa83517-da80-443e-b731-566ce557159b.docx
+2024-01-23 16:04:01,776 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\aaa83517-da80-443e-b731-566ce557159b.docx
+2024-01-23 16:04:01,779 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\aaa83517-da80-443e-b731-566ce557159b.docx
+2024-01-23 16:04:14,111 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "E:\long\office-connector\Office-connector\venv\Lib\site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\long\office-connector\Office-connector\lib\server.py", line 22, in handler
+    id= ret.upload_id
+        ^^^^^^^^^^^^^
+AttributeError: 'DownLoadInfo' object has no attribute 'upload_id'
+2024-01-23 16:04:14,121 - INFO - connection closed
+2024-01-23 16:04:15,223 - INFO - server closing
+2024-01-23 16:04:15,225 - INFO - server closed
+2024-01-23 16:05:24,205 - INFO - server listening on [::1]:8765
+2024-01-23 16:05:24,206 - INFO - server listening on 127.0.0.1:8765
+2024-01-23 16:05:32,540 - INFO - server closing
+2024-01-23 16:05:32,543 - INFO - server closed
+2024-01-23 16:06:42,143 - INFO - server listening on [::1]:8765
+2024-01-23 16:06:42,143 - INFO - server listening on 127.0.0.1:8765
+2024-01-23 16:06:57,438 - INFO - connection open
+2024-01-23 16:06:57,452 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default
+2024-01-23 16:06:57,458 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:06:57,598 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:06:57,611 - INFO - C:\Users\admin.NTTLONG\AppData\Local\Codx-Desktop-Connector\data\default\f2dd65ef-2fae-41bb-baee-9f82d198bb14.docx
+2024-01-23 16:07:05,914 - ERROR - (-2147221005, 'Invalid class string', None, None)
