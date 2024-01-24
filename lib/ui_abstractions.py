@@ -31,5 +31,30 @@ class BaseLoader(ABC):
         pass
 
     @abstractmethod
+    def get_icon_data(self):
+        pass
+    @abstractmethod
     def create_tray_icon(self, app_icon):
+        pass
+
+    @abstractmethod
+    def get_start_app(self):
+        pass
+
+    @abstractmethod
+    def get_qt_app_icon(self):
+        pass
+
+    @abstractmethod
+    def get_q_pixmap_app_icon(self):
+        pass
+    @abstractmethod
+    def get_main_app(self):
+        pass
+
+    @abstractmethod
+    def get_main_widget(self):
+        pass
+    @abstractmethod
+    def get_app_icon_path(self):
         pass

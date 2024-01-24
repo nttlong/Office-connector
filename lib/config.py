@@ -15,7 +15,7 @@ from enum import Enum
 app_dir_name = "Codx-Desktop-Connector"
 data_dir_name = "data"
 log_track_dir = "tracks"
-
+app_name="Codx"
 class OSEnum(enum.Enum):
     unknown = "unknown"
     windows = "Windows"
@@ -106,3 +106,9 @@ def get_app_config(url: str) -> UploadInfo:
         raise lib.errors.Error("Invalid Codx server")
     except Exception as e:
         raise lib.errors.Error(type(e).__name__)
+
+
+def get_app_tooltip():
+    return f"Codx DMS desktop application connector"
+
+

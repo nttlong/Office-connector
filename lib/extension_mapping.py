@@ -48,7 +48,7 @@ powerpoint_extensions = [
     "sldx",  # PowerPoint Slide (Office Open XML)
     "odp",  # OpenDocument Presentation
     "thmx",  # PowerPoint Theme
-    "pdf",  # Portable Document Format (view-only in most cases)
+    # "pdf",  # Portable Document Format (view-only in most cases)
     "potm",  # PowerPoint Macro-Enabled Template
     "ppsm",  # PowerPoint Macro-Enabled Slide Show
     "pptm",  # PowerPoint Macro-Enabled Presentation
@@ -72,7 +72,6 @@ excel_extensions = [
     "xml",  # XML Spreadsheet
     "htm",  # HTML (read-only)
     "html",  # HTML (read-only)
-    "pdf",  # Portable Document Format (read-only in most cases)
     "xps",  # XML Paper Specification (read-only)
 ]
 
