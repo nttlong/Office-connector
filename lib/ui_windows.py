@@ -149,8 +149,8 @@ class Loader(lib.ui_abstractions.BaseLoader):
             tray_icon.show()
             self.main_ui_app = app
             app.setQuitOnLastWindowClosed(False)
-            window = lib.dialogs.login.LoginWindow()
-            self.set_main_form(window)
+            # window = lib.dialogs.login.LoginWindow()
+            # self.set_main_form(window)
             # window.show()
             sys.exit(app.exec_())
 
