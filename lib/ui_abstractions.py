@@ -23,6 +23,9 @@ class BaseLoader(ABC):
         pass
 
     @abstractmethod
+    def show_message(self, param):
+        pass
+    @abstractmethod
     def set_auto_start_up(self):
         pass
 

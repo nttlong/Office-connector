@@ -27,9 +27,10 @@ def do_upload(app_name, upload_id, src_path, info: lib.config.UploadInfo):
     count = 10
     while count > 0:
         try:
+            lib.ui_controller.loader.show_message("File is saving ...")
             res = __do_upload__(app_name, upload_id, src_path, info)
             count = 0
-            lib.ui_controller.loader.show_message_error(f"File updated")
+            lib.ui_controller.loader.show_message_error("File saved.")
         except requests.exceptions.ConnectionError as e:
             lib.loggers.logger.error(e)
             count -= 1

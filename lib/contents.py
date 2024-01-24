@@ -153,6 +153,7 @@ class DownLoadInfo:
         self.modify_time = self.get_modify_time_online()
 
     def do_download(self):
+        import lib.ui_controller
         is_existing = False
         if os.path.isfile(self.file_path):
             is_existing = True
@@ -165,6 +166,8 @@ class DownLoadInfo:
             self.commit_change()
             self.save_commit()
         else:
+            lib.ui_controller.loader.show_message(f"Check out content")
+
             response = requests.get(self.url, stream=True, verify=False)
 
             # Check for successful response
@@ -177,14 +180,17 @@ class DownLoadInfo:
 
                     self.commit_change()
                     self.save_commit()
+                    return True
                 except Exception as e:
-                    import lib.ui_controller
+
                     lib.ui_controller.loader.show_message_error(f"Can not get content from {self.url}")
                     lib.loggers.logger.debug(e)
+                    return False
             else:
-                response.raise_for_status()
-
-            return None
+                lib.ui_controller.loader.show_message_error(f"Can not download {self.url}")
+                lib.loggers.logger.error(response.content.decode("utf8"))
+                return False
+            return False
 
 
 __cache__ = {}

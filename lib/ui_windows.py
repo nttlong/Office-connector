@@ -3,11 +3,11 @@ import pathlib
 import lib.ui_abstractions
 import lib.ui_menu_controller
 import win32com.client
-
-
+import lib.loggers
+import lib.contents
 def com_error_wrapper(client_app_name: str):
     import pywintypes
-    import lib.loggers
+
     def wrapper(*args, **kwargs):
         caller = args[0]
 
@@ -15,14 +15,10 @@ def com_error_wrapper(client_app_name: str):
             try:
                 return caller(*args, **kwargs)
             except pywintypes.com_error as err:
-                import win32api
-                import win32con
-                import lib.contents
-
+                import lib.ui_controller
                 title = lib.contents.get_app_name()
-                win32api.MessageBox(0, f"{client_app_name} is not installed or something wrong. Please install it to "
-                                       f"proceed.",
-                                    lib.contents.get_app_name(), win32con.MB_OK)
+                msg_text = f"{client_app_name} might not to be installed or something was wrong."
+                lib.ui_controller.loader.show_message_error(msg_text)
                 lib.loggers.logger.error(err)
             except Exception as e:
 
@@ -37,16 +33,13 @@ class Loader(lib.ui_abstractions.BaseLoader):
 
     def __init__(self):
         from win10toast import ToastNotifier
+        import lib.fix_windows
         self.qt_app_icon = None
         self.icon_raw_data = None
         self.icon_q_pixmap = None
         self.main_ui_app = None
         self.main_widget = None
-        old_handler = getattr(ToastNotifier, "on_destroy")
-        def on_toast_destroy(toaster, hwnd, msg, wparam, lparam):
-            old_handler(toaster, hwnd, msg, wparam, lparam)
-            return 0
-        setattr(ToastNotifier,"on_destroy",on_toast_destroy)
+
         self.toaster = ToastNotifier()
 
 
@@ -104,7 +97,15 @@ class Loader(lib.ui_abstractions.BaseLoader):
                            icon_path= self.get_app_icon_path(),
                            duration=5)  # Duration in seconds (optional)
 
+    def show_message(self, param,duration=1):
 
+        import lib.config
+
+        self.toaster.show_toast_no_sound(
+            lib.config.app_name,
+            msg=param,
+            icon_path= self.get_app_icon_path(),
+            duration=duration)  # Duration in seconds (optional)
     def set_auto_start_up(self):
         import winreg
         import lib.contents
