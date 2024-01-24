@@ -5,9 +5,9 @@ import sys
 import os
 class Menu(lib.ui_menu_abstraction.BaseMenu):
     def build_menu(self,menu):
-        action_setting = QAction("Setting ...", menu)
+        # action_setting = QAction("Setting ...", menu)
         action_exit = QAction("Exit", menu)
-        menu.addAction(action_setting)
+        # menu.addAction(action_setting)
         menu.addAction(action_exit)
 
 
@@ -20,3 +20,9 @@ class Menu(lib.ui_menu_abstraction.BaseMenu):
                 sys.exit()
 
         action_exit.triggered.connect(handle_action_exit)
+        def handle_action_setting():
+            import lib.ui_controller
+            lib.ui_controller.loader.show_main_form()
+
+
+        # action_setting.triggered.connect(handle_action_setting)

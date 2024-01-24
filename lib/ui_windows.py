@@ -41,6 +41,7 @@ class Loader(lib.ui_abstractions.BaseLoader):
         self.main_widget = None
 
         self.toaster = ToastNotifier()
+        self.main_form= None
 
 
     def get_main_app(self):
@@ -136,7 +137,7 @@ class Loader(lib.ui_abstractions.BaseLoader):
         from PyQt5.QtWidgets import QApplication, QSystemTrayIcon, QMenu, QAction
         import lib.config
         import sys
-
+        import lib.dialogs.login
         def running():
             app = QApplication([])  # Create a Qt application instance
             tray_icon = QSystemTrayIcon(self.get_qt_app_icon())
@@ -148,6 +149,9 @@ class Loader(lib.ui_abstractions.BaseLoader):
             tray_icon.show()
             self.main_ui_app = app
             app.setQuitOnLastWindowClosed(False)
+            window = lib.dialogs.login.LoginWindow()
+            self.set_main_form(window)
+            # window.show()
             sys.exit(app.exec_())
 
 
@@ -173,3 +177,9 @@ class Loader(lib.ui_abstractions.BaseLoader):
             return self.qt_app_icon
     def get_main_widget(self):
         return self.main_widget
+    def set_main_form(self,main_form):
+        self.main_form = main_form
+    def get_main_form(self):
+        return self.main_form
+    def show_main_form(self):
+        self.main_form.show()

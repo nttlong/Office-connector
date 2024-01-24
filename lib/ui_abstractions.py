@@ -61,3 +61,12 @@ class BaseLoader(ABC):
     @abstractmethod
     def get_app_icon_path(self):
         pass
+    @abstractmethod
+    def set_main_form(self,main_form):
+        pass
+    @abstractmethod
+    def get_main_form(self):
+        pass
+    @abstractmethod
+    def show_main_form(self):
+        pass
