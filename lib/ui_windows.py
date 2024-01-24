@@ -1,6 +1,7 @@
 import pathlib
 
 import lib.ui_abstractions
+import lib.ui_menu_controller
 import win32com.client
 
 
@@ -102,23 +103,7 @@ class Loader(lib.ui_abstractions.BaseLoader):
         self.toaster.show_toast(lib.config.app_name, msg=param,
                            icon_path= self.get_app_icon_path(),
                            duration=5)  # Duration in seconds (optional)
-    def show_message_error_delete(self, param):
-            import lib.config
-            from PyQt5.QtWidgets import QMessageBox
-            msg_box = QMessageBox()
-            from PyQt5.QtCore import Qt
-            msg_box.setWindowFlags( Qt.WindowStaysOnTopHint)
-            msg_box.setIcon(QMessageBox.Warning)
-            msg_box.setWindowTitle(lib.config.app_name)
-            msg_box.setText(param)
-            # def handle_accepted():
-            #     # Do something specific when the user clicks "OK" or other positive button
-            #     pass
-            # msg_box.accepted.connect(handle_accepted)
 
-            # msg_box.setStandardButtons(QMessageBox.Ok)
-            msg_box.exec_()
-            msg_box.deleteLater() # Can use exec_() here as the signal will prevent closure
 
     def set_auto_start_up(self):
         import winreg
@@ -150,15 +135,13 @@ class Loader(lib.ui_abstractions.BaseLoader):
         from PyQt5.QtWidgets import QApplication, QSystemTrayIcon, QMenu, QAction
         import lib.config
         import sys
+
         def running():
             app = QApplication([])  # Create a Qt application instance
             tray_icon = QSystemTrayIcon(self.get_qt_app_icon())
             self.main_widget = tray_icon
             menu = QMenu()
-            action1 = QAction("Item 1", menu)
-            action2 = QAction("Item 2", menu)
-            menu.addAction(action1)
-            menu.addAction(action2)
+            lib.ui_menu_controller.loader.build_menu(menu)
             tray_icon.setToolTip(lib.config.get_app_tooltip())
             tray_icon.setContextMenu(menu)
             tray_icon.show()

@@ -4,7 +4,9 @@ import lib.config
 import requests
 import requests.exceptions
 import lib.loggers
-def __do_upload__(app_name, upload_id, src_path, info:lib.config.UploadInfo):
+
+
+def __do_upload__(app_name, upload_id, src_path, info: lib.config.UploadInfo):
     # /lvfile/api/{app_name}/files/update_source/{id}
     if info.port:
         url_update_content = f"{info.scheme}://{info.host}:{info.port}/lvfile/api/{app_name}/files/update_source/{upload_id}"
@@ -18,16 +20,19 @@ def __do_upload__(app_name, upload_id, src_path, info:lib.config.UploadInfo):
 
     lib.loggers.logger.info(f"{src_path} was sync to {url_update_content}")
     return response
-def do_upload(app_name, upload_id, src_path, info:lib.config.UploadInfo):
-    count=10
-    while count>0:
+
+
+def do_upload(app_name, upload_id, src_path, info: lib.config.UploadInfo):
+    import lib.ui_controller
+    count = 10
+    while count > 0:
         try:
             res = __do_upload__(app_name, upload_id, src_path, info)
-            count =0
-
+            count = 0
+            lib.ui_controller.loader.show_message_error(f"File updated")
         except requests.exceptions.ConnectionError as e:
             lib.loggers.logger.error(e)
-            count -=1
+            count -= 1
             time.sleep(5)
         except PermissionError as e:
             lib.loggers.logger.error(e)
@@ -35,4 +40,5 @@ def do_upload(app_name, upload_id, src_path, info:lib.config.UploadInfo):
             time.sleep(5)
         except Exception as e:
             lib.loggers.logger.error(e)
-            info.is_in_upload=False
+            info.is_in_upload = False
+            lib.ui_controller.loader.show_message_error(f"Can not sync file to {info.host}")
