@@ -220,7 +220,7 @@ class DownLoadInfo:
                 hash_to_server="",
                 hash_len=lib.config.hash_len()
             )
-            lib.ui_controller.loader.show_message(f"Check out content is complete and saving file ...")
+
             if response.status_code == 200:
                 try:
                     with open(self.file_path, "wb") as f:
@@ -230,7 +230,7 @@ class DownLoadInfo:
 
                     self.commit_change()
                     self.save_commit()
-                    lib.ui_controller.loader.show_message(f"Saving file is Ok")
+
                     self.is_ready = True
                     return True
                 except Exception as e:
@@ -239,6 +239,10 @@ class DownLoadInfo:
                     lib.loggers.logger.debug(e)
                     return False
             elif response.status_code == 401:
+                lib.ui_controller.loader.show_message_error(f"Can not download {self.check_out_url}, Authenticate fail")
+                lib.loggers.logger.error(response.content.decode("utf8"))
+                return False
+            elif response.status_code == 500:
                 lib.ui_controller.loader.show_message_error(f"Can not download {self.check_out_url}, Authenticate fail")
                 lib.loggers.logger.error(response.content.decode("utf8"))
                 return False
