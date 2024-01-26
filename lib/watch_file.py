@@ -13,14 +13,15 @@ import lib.contents
 import os
 class MyHandler(FileSystemEventHandler):
     def on_any_event(self, event):
-        if hasattr(event,"event_type") and event.event_type=="deleted":
-            return
-        lib.loggers.logger.info(event.src_path)
-        if not os.path.isfile(event.src_path):
-            return
-        try:
-            print(event.src_path)
+        def run():
+            if hasattr(event,"event_type") and event.event_type=="deleted":
+                return
+            lib.loggers.logger.info(event.src_path)
+            if not os.path.isfile(event.src_path):
+                return
 
+
+            track_file =os.sep.join ([lib.config.get_app_track_dir(), event.src_path[len(lib.config.get_app_data_dir()):]])
             file_name = pathlib.Path(event.src_path).stem
             app_name= pathlib.Path(event.src_path).parent.name
             oid=None
@@ -28,20 +29,21 @@ class MyHandler(FileSystemEventHandler):
                 oid=uuid.UUID(file_name)
             except:
                 return
-            info = lib.contents.get_info_by_id(str(oid))
+            info = lib.contents.get_info_by_id(id=str(oid),track_file=track_file)
             if info is None:
                 return
             has_change =info.is_change()
             if has_change:
                 info.status=lib.contents.DownLoadInfoEnum.Unknown
-                on_edit(src_path=event.src_path, upload_id=file_name, app_name=app_name)
-                info.commit_change()
-                info.save_commit()
-
-
-
-        except  Exception as e:
-            lib.loggers.logger.error(e)
+                ret_upload =on_edit(src_path=event.src_path, upload_id=file_name, app_name=app_name)
+                if ret_upload:
+                    info.commit_change()
+                    info.save_commit()
+        run()
+        # try:
+        #     run()
+        # except  Exception as e:
+        #     lib.loggers.logger.error(e)
 
 
 def do_watch_file():

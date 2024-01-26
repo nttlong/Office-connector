@@ -11,7 +11,7 @@ import lib.errors
 import platform
 
 from enum import Enum
-
+__version__="0.1"
 app_dir_name = "Codx-Desktop-Connector"
 data_dir_name = "data"
 log_track_dir = "tracks"
@@ -43,11 +43,11 @@ def get_app_data_local() -> str:
 
 
 def get_app_data_dir() -> str:
-    ret = os.path.join(get_app_data_local(), app_dir_name, data_dir_name)
+    ret = os.path.join(get_app_data_local(), app_dir_name, data_dir_name,__version__)
     os.makedirs(ret, exist_ok=True)
     return ret
 def get_app_track_dir() -> str:
-    ret = os.path.join(get_app_data_local(), app_dir_name, log_track_dir)
+    ret = os.path.join(get_app_data_local(), app_dir_name,__version__, log_track_dir)
     os.makedirs(ret, exist_ok=True)
     return ret
 
@@ -112,3 +112,5 @@ def get_app_tooltip():
     return f"Codx DMS desktop application connector"
 
 
+def hash_len():
+    return 10

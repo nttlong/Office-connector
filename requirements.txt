@@ -7,3 +7,4 @@ pyinstaller
 watchdog
 PyQt5
 win10toast
+pyjwt
