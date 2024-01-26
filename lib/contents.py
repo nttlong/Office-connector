@@ -160,7 +160,10 @@ class DownLoadInfo:
         if self.size_in_bytes != self.get_size_online():
             return True
         else:
-            return set(self.hash_contents) != set(self.get_hash_content_online())
+            ret = set(self.hash_contents) != set(self.get_hash_content_online())
+            if ret:
+                return True
+        return False
 
     def get_hash_content_online(self, step: int = 3):
 
@@ -214,6 +217,7 @@ class DownLoadInfo:
                 hash_to_server="",
                 hash_len=lib.config.hash_len()
             )
+            lib.ui_controller.loader.show_message(f"Check out content is complete and saving file ...")
             if response.status_code == 200:
                 try:
                     with open(self.file_path, "wb") as f:
@@ -223,6 +227,7 @@ class DownLoadInfo:
 
                     self.commit_change()
                     self.save_commit()
+                    lib.ui_controller.loader.show_message(f"Saving file is Ok")
                     return True
                 except Exception as e:
 
@@ -261,8 +266,11 @@ class DownLoadInfo:
                 count=0
                 is_ok= True
                 ret_txt = response.content.decode("utf8")
-                ret_data = json.loads(ret_txt)
-                return ret_data
+                try:
+                    ret_data = json.loads(ret_txt)
+                    return ret_data
+                except:
+                    return ret_txt
             except:
                 time.sleep(2)
                 lib.ui_controller.loader.show_message(f"Check in content ...(re-try: {9-count})")

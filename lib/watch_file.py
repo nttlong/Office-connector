@@ -10,6 +10,7 @@ import lib.cacher_tracking
 tracking={}
 import lib.loggers
 import lib.contents
+import lib.ui_controller
 import os
 class MyHandler(FileSystemEventHandler):
     def on_any_event(self, event):
@@ -32,13 +33,16 @@ class MyHandler(FileSystemEventHandler):
             info = lib.contents.get_info_by_id(id=str(oid),track_file=track_file)
             if info is None:
                 return
-            has_change =info.is_change()
+            has_change = info.is_change()
             if has_change:
                 info.status=lib.contents.DownLoadInfoEnum.Unknown
-                ret_upload =on_edit(src_path=event.src_path, upload_id=file_name, app_name=app_name)
+                ret_upload = info.do_upload()
                 if ret_upload:
                     info.commit_change()
                     info.save_commit()
+                    lib.ui_controller.loader.show_message("File updated")
+
+
         run()
         # try:
         #     run()
