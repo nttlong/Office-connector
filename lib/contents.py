@@ -195,6 +195,7 @@ class DownLoadInfo:
     def do_download(self):
         import lib.ui_controller
         is_existing = False
+        self.is_ready = False
         if os.path.isfile(self.file_path):
             is_existing = True
             try:
@@ -205,6 +206,8 @@ class DownLoadInfo:
         if is_existing:
             self.commit_change()
             self.save_commit()
+            self.is_ready = True
+            return True
         else:
             lib.ui_controller.loader.show_message(f"Check out content")
 
@@ -228,6 +231,7 @@ class DownLoadInfo:
                     self.commit_change()
                     self.save_commit()
                     lib.ui_controller.loader.show_message(f"Saving file is Ok")
+                    self.is_ready = True
                     return True
                 except Exception as e:
 
