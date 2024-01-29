@@ -18,7 +18,8 @@ def watcher():
                 fx = datetime.datetime.fromtimestamp(t)
                 file_id = pathlib.Path(x).stem
                 if (datetime.datetime.now()-fx).seconds>30*60:
-                    odi = uuid.UUID(file_id)
+                    if not (len(file_id) == 64 and all(c in "0123456789abcdef" for c in file_id)):
+                        return
                     if not lib.sys_controller.loader.is_file_in_use(file_path=x):
 
                         lib.sys_controller.loader.delete_file(file_path=x)
@@ -32,5 +33,5 @@ def watcher():
             except:
                 continue
             time.sleep(0.5)
-
+        time.sleep(0.5)
 

@@ -11,7 +11,7 @@ import lib.errors
 import platform
 
 from enum import Enum
-__version__="0.1"
+__version__="0.2"
 app_dir_name = "Codx-Desktop-Connector"
 data_dir_name = "data"
 log_track_dir = "tracks"
